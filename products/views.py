@@ -4,7 +4,8 @@ from .models import Product
 from django.utils import timezone
 
 def home(request):
-    return render(request, 'products/home.html')
+    products = Product.objects
+    return render(request, 'products/home.html', {'products':products})
 
 @login_required
 def create(request):
