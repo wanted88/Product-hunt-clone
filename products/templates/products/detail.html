@@ -8,6 +8,7 @@
     </div>
   <div class="col-10">
     <a href="{{ product.url }}"><h1>{{ product.title }}</h1>
+      <h6>{{ product.pub_date_pretty }}</h6>
     </div>
 </div>
 <br />
@@ -22,11 +23,8 @@
 </div>
 
 <div class="row">
-  <div class="col-4">
+  <div class="col-4 pt-2">
     <h4>Hunted by {{ product.hunter.username }}</h4>
-    </div>
-  <div class="col-4 text-right">
-    <h6>{{ product.pub_date_pretty }}</h6>
     </div>
 </div>
 
