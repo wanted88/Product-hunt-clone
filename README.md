@@ -1,4 +1,4 @@
-producthunt clone project from tutorial https://www.udemy.com/the-ultimate-beginners-guide-to-django-django-2-python-web-dev-website/learn/v4/
+producthunt clone project from tutorial https://www.udemy.com/share/1001NsB0ASc1pQRQ==/
 
 
 <h2>homepage</h2>
